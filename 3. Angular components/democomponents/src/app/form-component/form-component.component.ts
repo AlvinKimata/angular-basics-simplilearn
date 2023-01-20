@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./form-component.component.css']
 })
 export class FormComponentComponent {
-
+  login: String;
+  submit(login){
+    console.log("Form submitted",login)
+  }
 }
