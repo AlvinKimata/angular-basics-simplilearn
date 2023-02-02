@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, enableProdMode } from '@angular/core';
 import { DataService } from '../data.service'; 
 
 @Component({
@@ -27,4 +27,10 @@ export class EInfoComponent {
 
   }
 
+  updateInfo(frm: any){
+    //Updates records.
+    this.dservice.addInfo(frm.value.location)
+  }
+
 }
+enableProdMode();
