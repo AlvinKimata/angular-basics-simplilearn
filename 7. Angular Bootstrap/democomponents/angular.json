@@ -24,13 +24,14 @@
               "src/favicon.ico",
               "src/assets"
             ],
+
             "styles": [
               "src/styles.css",
-              "7. Angular Bootstrap/democomponents/node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "C:\\Users\\debonair\\OneDrive\\Documents\\web_app_dev\\angular_simplilearn\\7. Angular Bootstrap\\democomponents\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"
             ],
             "scripts": [
-              "7. Angular Bootstrap/democomponents/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "7. Angular Bootstrap/democomponents/node_modules/jquery/dist/jquery.min.js"
+              "C:\\Users\\debonair\\OneDrive\\Documents\\web_app_dev\\angular_simplilearn\\7. Angular Bootstrap\\democomponents\\node_modules\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+              "C:\\Users\\debonair\\OneDrive\\Documents\\web_app_dev\\angular_simplilearn\\7. Angular Bootstrap\\democomponents\\node_modules\\jquery\\dist\\jquery.min.js"
             ]
           },
           "configurations": {
