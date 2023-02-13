@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AngularJS ng-model directive</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <style>
+      body{
+        font-family: Arial;
+      }
+      h1{
+        color: green;
+      }
+      .column{
+        float: left;
+        text-align: left;
+        width: 49%;
+      }
+      .row{
+        content: "";
+        display: table;
+      }
+    </style>
+  </head>
+
+  <body ng-app="myApp" ng-controller="myController">
+    <h1>Geeksforgeeks
+      <h4>Input box</h4>
+      <div class="row">
+        <div class="column">
+          Name
+          <input type="text" ng-model="name">
+          <pre>{{ name }} </pre> Checkbox
+
+          <input type="checkbox" ng-model="check">
+          <pre> {{ check }} </pre> Radiobox
+
+          <input type="radio" ng-model="check">
+          <pre> {{ choice }} </pre> Number
+
+          <input type="checkbox" ng-model="check">
+          <pre> {{ choice }} </pre> Radiobox
+          
+        </div>
+      </div>
+    </h1>
+
+  </body>
+
+</html>
