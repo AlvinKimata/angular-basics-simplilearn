@@ -35,13 +35,28 @@
           <input type="checkbox" ng-model="check">
           <pre> {{ check }} </pre> Radiobox
 
-          <input type="radio" ng-model="check">
+          <input type="radio" ng-model="choice">
           <pre> {{ choice }} </pre> Number
 
-          <input type="checkbox" ng-model="check">
-          <pre> {{ choice }} </pre> Radiobox
-          
+          <input type="number" ng-model="num">
+          <pre> {{ num }} </pre> Number
+
+          <input type="email" ng-model="mail">
+          <pre> {{ mail }} </pre> Email
+
+          <input type="url" ng-model="url">
+          <pre> {{ url }} </pre> Url
+
         </div>
+
+        <div class="column">
+          Date:
+          <input type="date" ng-model="date1" (change)="log(date1)">
+
+          <pre> Today's date: {{ date1 }} </pre> Datetime-local
+          <input type=""
+        </div>
+
       </div>
     </h1>
 
